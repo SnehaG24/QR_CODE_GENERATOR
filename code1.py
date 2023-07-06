@@ -8,9 +8,9 @@ qrs = qrcode.QRCode(
 
 )
 
-data = "https://my-learning.w3schools.com/"
+data = "https://github.com/SnehaG24"
 qrs.add_data(data)
 
 qrs.make(fit=True)
 image = qrs.make_image(fill="black",back_color = "white")
-image.save("w3school.png")
+image.save("Github.png")
